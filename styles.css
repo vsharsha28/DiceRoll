@@ -7,7 +7,14 @@
 .dice {
   text-align: center;
   display: inline-block;
+  position: relative;
+  top: 150px;
 
+}
+
+.roll-button{
+  position: absolute;
+  left: 740px;
 }
 
 body {
@@ -37,5 +44,6 @@ footer {
   color: #EEEEEE;
   text-align: center;
   font-family: 'Indie Flower', cursive;
-
+  position: relative;
+  top: 450px;
 }
